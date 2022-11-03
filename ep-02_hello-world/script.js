@@ -1,1 +1,0 @@
-console.log(8 - 5 + 6);
