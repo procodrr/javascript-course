@@ -1,0 +1,14 @@
+#css-image {
+    border: 4px solid green;
+}
+
+[alt="javascript roadmap"] {
+    border: 4px solid hotpink;
+}
+
+p b {
+    /* display: none; */
+    visibility: hidden;
+    /* opacity: 0; */
+    /* pointer-events: none; */
+}
