@@ -1,0 +1,18 @@
+.container {
+    color: green;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+img {
+    width: 60px;
+}
+
+.img-container {
+   text-align: center; 
+}
+
+.img-container p {
+    margin: 0;
+}
