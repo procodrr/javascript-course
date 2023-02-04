@@ -1,8 +1,11 @@
 // fetch('https://dummyjson.com/products')
 //   .then((res) => res.json())
 //   .then((data) => console.log(data))
+//   .catch((err) => {
+//     console.log(err);
+//   })
 
-fetch('https://dummyjson.com/products/add', {
+fetch('https://dummyjsons.com/products/add', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({
@@ -12,5 +15,8 @@ fetch('https://dummyjson.com/products/add', {
   })
 })
 .then(res => res.json())
-.then(console.log);
+.then(console.log)
+.catch((err) => {
+  console.log(err);
+})
             
